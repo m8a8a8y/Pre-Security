@@ -2,15 +2,14 @@
 <node>
 <version>6</version>
 <dict>
-  <key>expanded</key><true/>
-  <key>title</key><string>How The Web Works</string>
-  <key>nodeid</key><string>ea2c67e1-edc8-4f7f-b278-84dc13c102d3</string>
-  <key>modified_time</key><integer>1721306844</integer>
+  <key>title</key><string>DNS</string>
+  <key>nodeid</key><string>70481fa5-ff6c-441c-8758-6396d4b065ca</string>
+  <key>modified_time</key><integer>1721308760</integer>
   <key>version</key><integer>6</integer>
-  <key>content_type</key><string>application/x-notebook-dir</string>
-  <key>created_time</key><integer>1721306844</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1721306913</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>1</integer>
+  <key>order</key><integer>0</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>
