@@ -1,40 +1,42 @@
 <!DOCTYPE html  PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN'  'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-<title>DNS</title>
-</head><body><b><span style="font-size: 15pt">DNS (Domain Name System) </span></b><span style="font-size: 10pt">provides a simple way for us to communicate with devices on the internet without remembering complex numbers<br/>
-</span><br/>
-<img height="322" src="image.png" width="400"/><br/>
+<title>part 3</title>
+</head><body><b><u>Nano</u></b>: To create or edit a file using nano, we simply use <img height="22" src="image.png" width="100"/><br/>
 <br/>
 <br/>
-<span style="font-size: 16pt"><span style="font-family: Ubuntu"><b>TLD (Top-Level Domain)</b></span></span>:only use a-z 0-9 and hyphens<br/>
-<span style="color: #ff0000"><span style="font-size: 12pt">tryhackme.com</span></span>-------&gt; TLD is .com <br/>
-two types of TLD<br/>
-1.gTLD (Generic Top Level): tell the user the domain name's purpose (.com : comrecial  .gov : goverment   .edu: educaton )<br/>
-2.ccTLD (Country Code Top Level Domain): used for geographical purposes (.sa: saudi arabia  .jo: jordan  .uk: united kingdom)<br/>
+<img height="25" src="image 2.png" width="450"/><br/>
 <br/>
-<span style="font-size: 16pt"><span style="font-family: Ubuntu"><b>Second-Level Domain</b></span></span>:limited to 63 charaters<br/>
-<span style="color: #ff0000"><span style="font-size: 12pt">tryhackme.com</span></span>-------&gt;tryhackme is the Second Level Domain<br/>
-<br/>
-<b><span style="font-size: 17pt">subdomain : </span></b><span style="color: #000000"><span style="font-size: 10pt">limited to 63 characters and can only use a-z 0-9 and hyphensz</span></span><b><span style="font-size: 17pt"><br/>
-</span></b><span style="color: #ff0000"><span style="font-size: 12pt">admin.tryhackme.com</span></span>-------&gt; admin is subdomain <br/>
-<br/>
-<br/>
-<b><span style="font-size: 15pt">DNS Record Types:<br/>
-</span></b><span style="font-size: 10pt">1.</span>A record : is for ipv4<br/>
-2. AAAA recoed : is for ipv6                                domain                subdomain            CNAME<br/>
-3.CNAME record : domain that has subdomain sends u to domain   tryhackme.com -----------&gt; shop.tryhackme.com --------&gt; shops.shopify.com<br/>
-4.MX record: These records resolve to the address of the servers that handle the email for the domain<br/>
-5.TXt record: free text fields where any text-based data can be stored<br/>
+<img height="346" src="image 3.png" width="450"/><br/>
 <br/>
 <br/>
 <br/>
-<b><span style="font-size: 16pt">What happens when you make a DNS request</span></b><br/>
-1.Local Cache Check: Your computer first checks its local cache for the domain name.<br/>
-2.Recursive DNS Server: If not found locally, a request is sent to your Recursive DNS Server (usually provided by your ISP).checks its cache. If found, it returns the result.<br/>
-3.Root DNS Server: If not in the cache, the Recursive DNS Server queries a Root DNS Server.<br/>
-4.TLD DNS Server: The Root DNS Server redirects to the appropriate Top Level Domain (TLD) DNS Server (e.g., .com).<br/>
-5.Authoritative DNS Server: The TLD DNS Server provides the address of the Authoritative DNS Server for the domain.<br/>
-6.DNS Record Retrieval: The Recursive DNS Server queries the Authoritative DNS Server and retrieves the DNS record.<br/>
-7.Response Back to Client: The record is sent back to the Recursive DNS Server, cached, and then relayed to your computer.<br/>
+<u><b>VIM</b></u> : is a much more advanced text editor.<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<span style="font-size: 18pt"><u><b>Downloading Files (Wget)</b></u></span> <br/>
+This command allows us to download files from the web via HTTP -- as if you were accessing the file in your browser.<br/>
+<img height="70" src="image 4.png" width="450"/><br/>
+<br/>
+<br/>
+<span style="font-size: 18pt"><u><b>Transferring Files From Your Host - SCP (SSH)</b></u></span><br/>
+this command allows you to transfer files between two computers using the SSH<br/>
+protocol to provide both authentication and encryption.<br/>
+<br/>
+<br/>
+<span style="color: #ff0000">Copying a File from Local to Remote</span><br/>
+<img height="19" src="image 5.png" width="450"/><br/>
+<img height="188" src="image 6.png" width="450"/><br/>
+<br/>
+<br/>
+<span style="color: #ff0000">Copying a File from Remote to Local </span><br/>
+<img height="51" src="image 7.png" width="60"/><img height="50" src="image 8.png" width="850"/><br/>
+<br/>
+<img height="170" src="image 9.png" width="450"/><br/>
+<br/>
+<br/>
+<br/>
 </body></html>
